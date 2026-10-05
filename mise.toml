@@ -1,0 +1,78 @@
+[tools]
+node = "22.23.3"
+pnpm = "10.34.6"
+python = "3.13.16"
+
+[tasks.dev]
+description = "Run the Plasmo development build"
+run = "pnpm dev"
+
+[tasks.test]
+description = "Run application tests"
+run = "pnpm test"
+
+[tasks.build]
+description = "Build the production Chrome extension"
+run = "pnpm build"
+
+[tasks.lint]
+run = "pnpm lint"
+
+[tasks.typecheck]
+run = "pnpm typecheck"
+
+[tasks.plan-check]
+description = "Validate Backlog and the saved BB workflows"
+depends = ["workflow-test"]
+run = ["backlog doctor", "bb workflows validate --file .bb/workflows/deliver-slices.js", "bb workflows validate --file .bb/workflows/review-plan.js"]
+
+[tasks.workflow-test]
+description = "Test delivery workflow control flow with stub agents"
+run = "node --test tests/*.test.cjs"
+
+[tasks.install]
+run = "pnpm install --frozen-lockfile --network-concurrency=1"
+
+[tasks.browser-test]
+description = "Exercise the production unpacked Chrome extension"
+run = "pnpm test:browser"
+
+[tasks.browser-install]
+run = "pnpm exec playwright install chromium"
+
+[tasks.browser-test-synthetic]
+description = "Test production Chrome with synthetic fixtures only; skip live access"
+run = "pnpm test:browser:synthetic"
+
+[tasks.helper-test]
+description = "Test evidence driver failure and cleanup behavior"
+run = "python3 -m unittest discover -s tests/run-radar/helpers -v"
+
+[tasks.native-test]
+run = "python3 -m unittest discover -s tests/run-radar/native -v"
+
+[tasks.native-install]
+run = "python3 native/install.py install"
+
+[tasks.native-remove]
+run = "python3 native/install.py remove"
+
+[tasks.timezone-browser-test]
+description = "Exercise production Chrome timezone preference and schedule metadata"
+run = "pnpm exec playwright test --config=tests/run-radar/browser/timezones.config.ts"
+
+[tasks.timezone-live-check]
+description = "Probe read-only schedule timezone metadata through the host helper"
+run = "python3 evidence/WMLC-011/live-timezone-probe.py"
+
+[tasks.credentials-browser-test]
+description = "Test encrypted credentials in production Chrome with synthetic data only"
+run = "pnpm exec playwright test --config=tests/run-radar/browser/credentials.config.ts"
+
+[tasks.history-browser-test]
+description = "Test script and flow discovery and history in the production Chrome toolbar"
+run = "pnpm exec playwright test --config=tests/run-radar/browser/history.config.ts"
+
+[tasks.history-live-check]
+description = "Probe read-only live script and flow catalog and exact path plus kind history on the host"
+run = "python3 evidence/WMLC-018/live-catalog.py"

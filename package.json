@@ -1,0 +1,80 @@
+{
+  "name": "chromill",
+  "displayName": "ChroMill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Search Windmill scripts and flows, browse runs, and read results in Chrome.",
+  "scripts": {
+    "dev": "plasmo dev --target=chrome-mv3",
+    "build": "plasmo build --target=chrome-mv3",
+    "test": "vitest run",
+    "test:browser": "playwright test --output=evidence/WMLC-004/browser-artifacts",
+    "test:browser:synthetic": "playwright test --config=tests/run-radar/browser/synthetic.config.ts",
+    "lint": "eslint src tests/run-radar",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "plasmo": "0.90.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.3.4",
+    "@types/node": "22.20.5",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.8.2",
+    "eslint": "9.39.5",
+    "typescript-eslint": "8.71.0",
+    "vitest": "5.0.3",
+    "jsdom": "30.1.1",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@playwright/test": "1.63.0"
+  },
+  "manifest": {
+    "minimum_chrome_version": "127",
+    "permissions": [
+      "nativeMessaging",
+      "storage",
+      "sidePanel",
+      "alarms"
+    ],
+    "optional_host_permissions": [
+      "https://*/*",
+      "http://localhost/*",
+      "http://127.0.0.1/*",
+      "http://[::1]/*"
+    ]
+  },
+  "packageManager": "pnpm@10.34.6",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "esbuild",
+      "lmdb",
+      "msgpackr-extract",
+      "sharp"
+    ]
+  },
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StreamlinedStartup/ChroMill.git"
+  },
+  "homepage": "https://github.com/StreamlinedStartup/ChroMill#readme",
+  "bugs": {
+    "url": "https://github.com/StreamlinedStartup/ChroMill/issues"
+  },
+  "keywords": [
+    "chrome-extension",
+    "windmill",
+    "workflow",
+    "scripts",
+    "flows",
+    "monitoring",
+    "plasmo"
+  ]
+}

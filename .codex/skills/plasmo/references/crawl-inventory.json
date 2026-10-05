@@ -1,0 +1,417 @@
+{
+  "crawled_at": "2026-10-03",
+  "entry_url": "https://docs.plasmo.com/",
+  "discovery": "same-host HTML links, sitemap, and official repository route comparison",
+  "sitemap_url": "https://docs.plasmo.com/sitemap-0.xml",
+  "source_repository": "https://github.com/PlasmoHQ/docs",
+  "canonical_documents": 47,
+  "discovered_urls": 51,
+  "pages": [
+    {
+      "url": "https://docs.plasmo.com/",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/",
+      "title": "Introduction to Plasmo",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework",
+      "title": "Plasmo Framework",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/assets",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/assets",
+      "title": "Assets",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/background-service-worker",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/background-service-worker",
+      "title": "Background Service Worker",
+      "canonical_document": true,
+      "reference": "messaging.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/content-scripts",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/content-scripts",
+      "title": "Content Scripts",
+      "canonical_document": true,
+      "reference": "content-scripts.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/content-scripts-ui",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/content-scripts-ui",
+      "title": "Content Scripts UI",
+      "canonical_document": true,
+      "reference": "content-scripts.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/content-scripts-ui/life-cycle",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/content-scripts-ui/life-cycle",
+      "title": "Life Cycle of Plasmo CSUI",
+      "canonical_document": true,
+      "reference": "content-scripts.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/content-scripts-ui/styling",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/content-scripts-ui/styling",
+      "title": "Styling Plasmo CSUI",
+      "canonical_document": true,
+      "reference": "content-scripts.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/customization",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/customization",
+      "title": "Customization",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/customization/alias",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/customization/alias",
+      "title": "Alias Source Code Import",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/customization/html",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/customization/html",
+      "title": "Replacing the HTML Templates",
+      "canonical_document": true,
+      "reference": "pages.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/customization/internal-path",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/customization/internal-path",
+      "title": "Customizing Internal Paths",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/customization/manifest",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/customization/manifest",
+      "title": "Overriding the Manifest",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/customization/src",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/customization/src",
+      "title": "Using the src directory for source code",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/env",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/env",
+      "title": "Environment Variables",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/ext-pages",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/ext-pages",
+      "title": "Browser Extension Pages",
+      "canonical_document": true,
+      "reference": "pages.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/icon",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/icon",
+      "title": "Extension Icon",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/import",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/import",
+      "title": "Import Resolution",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/locales",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/locales",
+      "title": "Localization and Internationalization",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/messaging",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/messaging",
+      "title": "Messaging API",
+      "canonical_document": true,
+      "reference": "messaging.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/remote-code",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/remote-code",
+      "title": "Importing Remote Code",
+      "canonical_document": true,
+      "reference": "configuration.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/sandbox-pages",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/sandbox-pages",
+      "title": "Sandbox Pages",
+      "canonical_document": true,
+      "reference": "pages.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/storage",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/storage",
+      "title": "Storage API",
+      "canonical_document": true,
+      "reference": "storage.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/tab-pages",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/tab-pages",
+      "title": "Tab Pages",
+      "canonical_document": true,
+      "reference": "pages.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/workflows/build",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/workflows/build",
+      "title": "Create a Production Build",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/workflows/dev",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/workflows/dev",
+      "title": "Start the Development Server",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/workflows/faq",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/workflows/faq",
+      "title": "Workflows Frequently Asked Questions",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/workflows/new",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/workflows/new",
+      "title": "Create a New Extension",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/framework/workflows/submit",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/workflows/submit",
+      "title": "Submit Your Extension",
+      "canonical_document": true,
+      "reference": "workflows.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero",
+      "title": "Welcome to Itero: The Browser Extension Cloud",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/api",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/api",
+      "title": "Manual Upload API",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/builder",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/builder",
+      "title": "GitHub Extension Builder",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/github",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/github",
+      "title": "Itero GitHub Integration",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/mv2-to-mv3",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/mv2-to-mv3",
+      "title": "Manifest Version 2 to 3 Converter",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/publisher",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/publisher",
+      "title": "Publisher",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/team",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/team",
+      "title": "Team",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/itero/test-bed",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/itero/test-bed",
+      "title": "Itero TestBed: Your Browser Extension Testing Solution",
+      "canonical_document": true,
+      "reference": "itero.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts",
+      "title": "Table of Contents",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/migrate-to-plasmo",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/migrate-to-plasmo",
+      "title": "Migrate to Plasmo Framework",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-chrome-storage",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-chrome-storage",
+      "title": "Quickstart with Chrome Storage",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-firebase-authentication",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-firebase-authentication",
+      "title": "Quickstart with Firebase Auth",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-google-analytics",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-google-analytics",
+      "title": "Quickstart with Google Analytics",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-nextjs",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-nextjs",
+      "title": "Quickstart with Next.js",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-redux",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-redux",
+      "title": "Quickstart with Redux",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-stripe",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-stripe",
+      "title": "Quickstart with Stripe",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-supabase",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-supabase",
+      "title": "Quickstart with Supabase",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/quickstarts/with-tailwindcss",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/quickstarts/with-tailwindcss",
+      "title": "Quickstart with TailwindCSS",
+      "canonical_document": true,
+      "reference": "integrations.md"
+    },
+    {
+      "url": "https://docs.plasmo.com/bug",
+      "status": "ok",
+      "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FPlasmoHQ%2Fplasmo%2Fissues%2Fnew%3Fassignees%3D%26labels%3Dbug%252Ctriage%26template%3D1.bug.yml%26title%3D%255BBUG%255D%2520",
+      "title": "Sign in to GitHub \u00b7 GitHub",
+      "canonical_document": false
+    },
+    {
+      "url": "https://docs.plasmo.com/csui",
+      "status": "ok",
+      "final_url": "https://docs.plasmo.com/framework/content-scripts-ui",
+      "title": "Content Scripts UI",
+      "canonical_document": false
+    },
+    {
+      "url": "https://docs.plasmo.com/password_reset",
+      "status": "error",
+      "final_url": null,
+      "title": null,
+      "canonical_document": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://docs.plasmo.com/signup",
+      "status": "error",
+      "final_url": null,
+      "title": null,
+      "canonical_document": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

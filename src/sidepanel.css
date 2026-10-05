@@ -1,0 +1,6 @@
+body { width: auto; height: auto; min-width: 280px; }
+.panel { min-height: 100vh; }
+.comparison { border-top: 1px solid var(--line); margin-top: 16px; padding-top: 16px; }
+.comparison-field { margin-top: 16px; }
+.comparison details { margin: 8px 0; }
+.comparison p, .difference { overflow-wrap: anywhere; white-space: pre-wrap; }

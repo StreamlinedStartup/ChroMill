@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plasmo"
+  short_description: "Build Plasmo extensions with topic-specific docs"
+  default_prompt: "Use $plasmo to build or update this browser extension."
