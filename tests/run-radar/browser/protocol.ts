@@ -37,4 +37,3 @@ export async function attach(session: CDPSession, targetId: string) {
     }
   }
 }
-
